@@ -1,4 +1,4 @@
-import "./styles.css";
+import "/styles.css";
 
 const onClickAdd = () => {
   const inputText = document.getElementById("add-text").value;
