@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  color: rgb(32, 33, 33);
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  padding: 4px 8px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 2px 10px 2px 10px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: rgb(101, 139, 141);
+  color: #fff;
+  cursor: pointer;
+}
+.input-area {
+  background-color: aqua;
+  width: 400px;
+  height: 30px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.imcomplite-area {
+  border: 2px solid #00aaff;
+  background-color: rgb(156, 236, 127);
+  width: 400px;
+  min-height: 150px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.complited-area {
+  border: 2px solid #00aaff;
+  background-color: rgb(185, 194, 200);
+  width: 400px;
+  min-height: 150px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.area-title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.task-list {
+  display: flex;
+  align-items: center;
+}
+
+.task-list p {
+  margin: 6px;
+  margin-right: 16px;
+}
